@@ -1,6 +1,6 @@
 #rich-optima-24 {
     --black-color: #000326;
-    --white-color: #ffffff0e;
+    --white-color: #ffffff;
     --accent-color: #0081FF;    
     --trans-dur: 250ms;
     --trans-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -10,7 +10,7 @@
     font-size: 18px;
     line-height: 1.4;
     color: var(--black-color);
-    letter-spacing: 0.005em;
+    letter-spacing: 0.01em;
 
     /* @media (max-width: 375px) {
         line-height: 1.2;
@@ -49,23 +49,39 @@
 
     section {
         margin: 0 auto;
-        padding: 18px 0 36px 0;
+        padding: 64px 0 84px 0;
 
-        /* @media (min-width: 375px) {
-            padding: 36px 0 56px 0;
+        @media (min-width: 760px) {
+            padding: 144px 0 174px 0;
+        }
+    }
+
+    .section-top-border {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: -20px;
+
+        @media (min-width: 760px) {
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            margin-top: -30px;
+        }
+    }
+
+    .section-title {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+
+        @media (min-width: 760px) {
+            font-size: 56px;
         }
 
-        @media (min-width: 660px) {
-            padding: 70px 0 104px 0;
+        @media (min-width: 1460px) {
+            font-size: 72px;
         }
-
-        @media (min-width: 1240px) {
-            padding: 104px 0 148px 0;
-        }
-
-        @media (min-width: 1680px) {
-            padding: 148px 0 178px 0;
-        } */
     }
 
     .link {
@@ -260,6 +276,161 @@
         }
     }
 
+    /* WHY-KIVI SECTION */
+
+    .why-kivi {
+        background-color: #46475c;
+        color: var(--white-color);
+
+        .wrap-container{
+            display: flex;
+            flex-direction: column;
+            gap: 54px;
+
+            @media (min-width: 760px) {
+                gap: 84px;
+            }
+
+            .why-kivi-list-wrap {
+                display: flex;
+                flex-direction: column;
+                gap: 54px;
+
+                @media (min-width: 760px) {
+                    gap: 84px;
+                }
+
+                @media (min-width: 1460px) {
+                    flex-direction: row;
+                }
+
+                .why-kivi-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 54px;
+
+                    @media (min-width: 760px) {
+                        gap: 84px;
+                    }
+
+                    .why-kivi-list-item {
+                        display: flex;
+                        gap: 32px;
+                        align-items: flex-start;
+
+                        @media (min-width: 760px) {
+                            gap: 60px;
+                        }
+
+                        .img-wrap {
+                            display: flex;
+                            flex-shrink: 0;
+                            gap: 16px;
+                            width: 49px;
+                            align-items: center;
+                            padding-top: 5px;
+
+                            @media (min-width: 760px) {
+                                width: 111px;
+                                gap: 30px;
+                            }
+
+                            &::after {
+                                content: '';
+                                display: block;
+                                flex-shrink: 0;
+                                width: 1px;
+                                height: 50px;
+                                background-color: var(--white-color);
+
+                                @media (min-width: 760px) {
+                                    height: 81px;
+                                }
+                            }
+                        }
+
+                        .why-kivi-list-text {
+                            align-self: center;
+                            font-size: 14px;
+
+                            @media (min-width: 760px) {
+                                font-size: 24px;
+                            }
+                        }
+
+                    }
+
+                    .why-kivi-list-item-partners {
+
+                        .partners-title{
+                            font-size: 16px;
+                            margin-bottom: 24px;
+
+                            @media (min-width: 760px) {
+                                font-size: 24px;
+                            }
+                        }
+
+                        .partners-wrap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+
+                            @media (min-width: 760px) {
+                                flex-direction: row;
+                                align-items: start;
+                                gap: 30px;
+
+                                .decor-wrap {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 30px;
+                                    padding-top: 10px;
+                                    
+                                    &::after {
+                                        content: '';
+                                        display: block;
+                                        flex-shrink: 0;
+                                        width: 1px;
+                                        height: 81px;
+                                        background-color: var(--white-color);        
+                                    }
+                                }
+                            }                            
+
+                            .logos-wrap {
+                                display: flex;
+                                justify-content: space-between;
+                                gap: 16px;
+
+                                @media (min-width: 460px) {
+                                    justify-content: flex-start;
+                                    gap: 32px;
+                                }
+
+                                @media (min-width: 760px) {
+                                    flex-direction: column;
+                                    width: 111px;
+                                    flex-shrink: 0;
+                                    justify-content: center;
+                                    gap: 20px;
+                                }
+                            }
+
+                            .why-kivi-list-text {
+                                align-self: center;
+                                font-size: 14px;
+                                
+                                @media (min-width: 760px) {
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
 
