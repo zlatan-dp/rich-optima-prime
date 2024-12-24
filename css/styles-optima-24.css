@@ -12,18 +12,9 @@
     color: var(--black-color);
     letter-spacing: 0.01em;
 
-    /* @media (max-width: 375px) {
-        line-height: 1.2;
-    }
-
-    @media (min-width: 1240px) {
-        font-size: 24px;
-    }
-
-    @media (min-width: 1680px) {
+    @media (min-width: 760px) {
         font-size: 32px;
-    } */
-
+    }
 
     p,
     h1,
@@ -81,6 +72,35 @@
 
         @media (min-width: 1460px) {
             font-size: 72px;
+        }
+    }
+
+    .section-subtitle {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.1;
+        text-transform: uppercase;
+
+        @media (min-width: 760px) {
+            font-size: 42px;
+            gap: 30px;
+            height: 93px;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            flex-shrink: 0;
+            width: 1px;
+            height: 43px;
+            background-color: var(--black-color);
+
+            @media (min-width: 760px) {
+                height: 75px;
+            }
         }
     }
 
@@ -432,7 +452,53 @@
         }
     }
 
+    /* TECH SECTION */
 
+    .technologies {
+        background-color: var(--white-color);
+
+        .technologies-list {
+            display: flex;
+            flex-direction: column;
+            gap: 54px;
+
+            @media (min-width: 760px) {
+                gap: 84px;
+            }
+
+            @media (min-width: 1460px) {
+                flex-direction: row;
+                flex-wrap: wrap;
+                row-gap: 84px;
+                column-gap: 24px;
+            }
+
+            .technologies-list-item {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                @media (min-width: 760px) {
+                    gap: 54px;
+                }
+
+                @media (min-width: 1460px) {
+                    flex: 1 1 calc(50% - 12px);
+                }
+
+                .technologies-info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+
+                    @media (min-width: 760px) {
+                        gap: 34px;
+                    }
+                }
+            }
+        }
+
+    }
 
     /* HERO SECTION */
 }

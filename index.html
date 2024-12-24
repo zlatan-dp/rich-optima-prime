@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/styles-optima-24.css">
+    <link rel="stylesheet" href="./css/twentytwenty.css" />
+    <link rel="stylesheet" href="./css/styles-optima-24.css" />
 
 
 </head>
@@ -102,7 +102,90 @@
                 </div>
             </div>
         </section>
+
+        <section class="technologies section-top-border">
+            <div class="wrap-container">
+                <ul class="technologies-list list">
+                    <li class="technologies-list-item">
+                        <div class="twentytwenty-container">
+                            <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/01-super-contrast-left-mob.png"/>
+                                <img src="./img-optima-24/technologies/01-super-contrast-left.png" alt="Contrast control image" />
+                              </picture>
+                              <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/01-super-contrast-mob.png"/>
+                                <img src="/img-optima-24/technologies/01-super-contrast.png" alt="Contrast control image" />
+                              </picture>
+                        </div>
+                        <div class="technologies-info">
+                            <h3 class="section-subtitle">Super Contrast<br> Control</h3>
+                            <p>Досконалість у кожному кадрі.</p>
+                        </div>
+                    </li>
+                    <li class="technologies-list-item">
+                        <div class="twentytwenty-container">
+                            <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/02-hdr-left-mob.png"/>
+                                <img src="./img-optima-24/technologies/02-hdr-left.png" alt="Contrast control image" />
+                              </picture>
+                              <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/02-hdr-mob.png"/>
+                                <img src="/img-optima-24/technologies/02-hdr.png" alt="Contrast control image" />
+                              </picture>
+                        </div>
+                        <div class="technologies-info">
+                            <h3 class="section-subtitle">HDR</h3>
+                            <p>Глибина і реалізм.</p>
+                        </div>
+                    </li>
+                    <li class="technologies-list-item">
+                        <div class="twentytwenty-container">
+                            <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/03-max-vivid-left-mob.png"/>
+                                <img src="./img-optima-24/technologies/03-max-vivid-left.png" alt="Contrast control image" />
+                              </picture>
+                              <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/03-max-vivid-mob.png"/>
+                                <img src="/img-optima-24/technologies/03-max-vivid.png" alt="Contrast control image" />
+                              </picture>
+                        </div>
+                        <div class="technologies-info">
+                            <h3 class="section-subtitle">Max<br> Vivid</h3>
+                            <p>Максимум кольору, максимум емоцій.</p>
+                        </div>
+                    </li>
+                    <li class="technologies-list-item">
+                        <div class="twentytwenty-container">
+                            <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/04-ultra-clear-left-mob.png"/>
+                                <img src="./img-optima-24/technologies/04-ultra-clear-left.png" alt="Contrast control image" />
+                              </picture>
+                              <picture>
+                                <source media="(max-width: 560px)" srcset="/img-optima-24/technologies/04-ultra-clear-mob.png"/>
+                                <img src="/img-optima-24/technologies/04-ultra-clear.png" alt="Contrast control image" />
+                              </picture>
+                        </div>
+                        <div class="technologies-info">
+                            <h3 class="section-subtitle">Ultra<br> Clear</h3>
+                            <p>Чіткість, що заворожує.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/jquery.event.move.js"></script>
+    <script src="./js/jquery.twentytwenty.js"></script>
+    <script>
+        $(window).on('load', function() {
+           $(".twentytwenty-container").twentytwenty({
+              no_overlay: true,
+            });
+        });
+     </script>
     
 </body>
 </html>
