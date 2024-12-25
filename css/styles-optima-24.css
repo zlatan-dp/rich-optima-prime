@@ -617,4 +617,35 @@
     }
 
     /* HERO SECTION */
+
+    /* TWENTY */
+
+    .twentytwenty-handle {
+        border: 1px solid white;
+        background-color: #fff;
+    }
+
+    .twentytwenty-left-arrow {
+        border: none;
+        width: 8px;
+        height: 16px;
+        left: 60%;
+        top: 48%;
+        background-image: url('../img-optima-24/technologies/left-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    .twentytwenty-right-arrow {
+        border: none;
+        width: 8px;
+        height: 16px;
+        right: 60%;
+        top: 48%;
+        background-image: url('../img-optima-24/technologies/right-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
 }
