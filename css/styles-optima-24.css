@@ -134,15 +134,15 @@
     /* HERO SECTION */
 
     .optima-hero {
-        padding: 84px 0;
+        padding: 54px 0;
         background: linear-gradient(180deg, #060714 39%, #252639 64.81%);
 
         @media (min-width: 760px) {
-            padding: 204px 0 174px 0;
+            padding: 84px 0 124px 0;
         }
 
         @media (min-width: 1680px) {
-            padding: 294px 0 234px 0;
+            padding: 144px 0 144px 0;
         }
 
         .hero-logo-wrap {
@@ -151,12 +151,12 @@
 
             @media (min-width: 760px) {
                 max-width: 455px;
-                margin-bottom: 114px;
+                margin-bottom: 84px;
             }
 
             @media (min-width: 1460px) {
                 max-width: 607px;
-                margin-bottom: 264px;
+                margin-bottom: 144px;
             }
         }
 
@@ -164,7 +164,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 20%;
+            padding-top: 18%;
             background-image: url('../img-optima-24/hero-tv-mob.png');
             background-repeat: no-repeat;
             background-position: 50% 0%;
@@ -178,13 +178,21 @@
 
             @media (min-width: 960px) {
                 background-image: url('../img-optima-24/hero-tv-web.png');
-                padding-top: 17%;
+                padding-top: 10%;
+                background-size: 70%;
+
             }
 
             @media (min-width: 1360px) {
-                padding-top: 174px;
+                padding-top: 124px;
                 padding-bottom: 217px;
-                background-size: auto;
+                background-size: 1000px;
+            }
+
+            @media (min-width: 1680px) {
+                background-size: 1179px;
+                padding-top: 144px;
+                padding-bottom: 257px;
             }
            
 
@@ -223,7 +231,7 @@
                 @media (min-width: 960px) {
                     font-size: 72px;
                     width: 700px;
-                    margin-bottom: 35%;
+                    margin-bottom: 25%;
                 }
 
                 @media (min-width: 1240px) {
@@ -263,7 +271,7 @@
                 }
 
                 @media (min-width: 1360px) {
-                    padding-bottom: 84px;
+                    padding-bottom: 54px;
                 }
             }
 
@@ -328,6 +336,7 @@
 
                 @media (min-width: 1360px) {
                     flex-direction: row;
+                    gap: 54px;
                 }
 
                 .why-kivi-list {
@@ -472,6 +481,7 @@
 
     .technologies {
         background-color: var(--white-color);
+        padding-bottom: 0;
 
         .technologies-list {
             display: flex;
@@ -514,6 +524,96 @@
             }
         }
 
+    }
+
+    /* HERO SECTION */
+
+    .sound {
+        background-image: url('../img-optima-24/sound-tv-mob.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        background-size: contain;
+        padding-top: 45%;
+
+        @media (min-width: 560px) {
+            background-image: url('../img-optima-24/sound-tv-tab.png');
+        }
+
+        @media (min-width: 760px) {
+            padding-top: 42%;
+        }
+
+        @media (min-width: 960px) {
+            padding-top: 47%;
+        }
+
+        @media (min-width: 1360px) {
+            background-image: url('../img-optima-24/sound-tv-web.png');
+            margin-top: -30px;
+            padding-top: 30%;
+        }
+
+        @media (min-width: 1680px) {
+            padding-top: 32%;
+        }
+
+        .sound-title {
+            color: var(--white-color);
+            text-align: center;
+            width: 260px;
+            margin: 0 auto;
+            margin-bottom: 52%;
+
+            @media (min-width: 560px) {
+                width: 100%;
+            }
+
+            @media (min-width: 760px) {
+                width: 600px;
+            }
+
+            @media (min-width: 960px) {
+                width: 100%;
+            }
+
+            @media (min-width: 1360px) {
+                margin-bottom: 38%;
+
+            }
+        }
+
+        .sound-list {
+            display: flex;
+            flex-direction: column;
+            gap: 54px;
+
+            @media (min-width: 760px) {
+                padding-left: 69px;
+                gap: 84px;
+            }
+
+            @media (min-width: 1360px) {
+                flex-direction: row;
+                flex-wrap: wrap;
+                row-gap: 84px;
+                column-gap: 24px;
+                padding-left: 0;
+            }
+
+            .sound-list-item {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                @media (min-width: 760px) {
+                    gap: 37px;
+                }
+
+                @media (min-width: 1360px) {
+                    flex: 1 1 calc(50% - 12px);
+                }
+            }
+        }
     }
 
     /* HERO SECTION */
