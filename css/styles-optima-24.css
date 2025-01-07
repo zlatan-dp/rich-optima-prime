@@ -150,6 +150,21 @@
         }
     }
 
+    .btn-detail {
+        border-radius: 50px;
+        padding: 12px 24px;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        font-size: 18px;
+        line-height: 1;
+
+        @media (min-width: 760px) {
+            padding: 24px 54px;
+            font-size: 24px;
+        }
+
+    }
+
     /* HERO SECTION */
 
     .optima-hero {
@@ -394,10 +409,6 @@
                                 width: 1px;
                                 height: 50px;
                                 background-color: var(--white-color);
-
-                                /* @media (min-width: 760px) {
-                                    height: 81px;
-                                } */
                             }
                         }
 
@@ -882,6 +893,146 @@
     }
 
 
+    /* KIVIPLUS SECTION */
+
+    .kiviplus {
+        background-image: url('../img-optima-24/kiviplus-mob.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        background-size: contain;
+        margin-top: -20px;
+        
+        @media (min-width: 560px) {
+            background-image: url('../img-optima-24/kiviplus-tab.png');
+        }
+        
+        @media (min-width: 1360px) {
+            background-image: url('../img-optima-24/kiviplus-web.png');
+        }
+
+        .kiviplus-title-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            margin-bottom: 115%;
+            width: 300px;
+
+            @media (min-width: 560px) {
+                width: 100%;
+                align-items: center;
+                margin-bottom: 105%;
+            }
+
+            @media (min-width: 960px) {
+                gap: 40px;
+                margin-bottom: 100%;
+            }
+
+            @media (min-width: 1360px) {
+                margin-bottom: 65%;
+            }
+
+            @media (min-width: 1680px) {
+                gap: 54px;
+                margin-bottom: 70%;
+            }
+
+            .kiviplus-logo-wrap {
+                width: 134px;
+
+                @media (min-width: 960px) {
+                    width: 252px;
+                }
+            }
+        }
+
+        .kiviplus-info-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 54px;
+            align-items: center;
+
+            @media (min-width: 760px) {
+                gap: 84px;
+                max-width: 1080px;
+                margin: 0 auto;
+            }
+
+            .info-title-wrap {
+                display: flex;
+                gap: 32px;
+                align-items: start;
+
+                @media (min-width: 760px) {
+                    gap: 60px;
+                }
+                
+                .info-icon-wrap {
+                    display: flex;
+                    flex-shrink: 0;
+                    gap: 16px;
+                    width: 49px;
+                    align-items: center;
+                    padding-top: 5px;
+
+                    @media (min-width: 760px) {
+                        width: 81px;
+                        gap: 30px;
+                    }
+
+                    &::after {
+                        content: '';
+                        display: block;
+                        flex-shrink: 0;
+                        width: 1px;
+                        height: 47px;
+                        background-color: var(--black-color);
+                    }
+                }
+
+                @media (min-width: 760px) {
+                    .info-icon-wrap::after {
+                        height: 81px;
+                    }
+                }
+
+                .info-text-wrap {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+
+                    @media (min-width: 760px) {
+                        gap: 37px;
+                    }
+
+                    .info-subtitle {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 1.1;
+                        text-transform: uppercase;
+
+                        @media (min-width: 760px) {
+                            font-size: 43px;
+                            max-width: 586px;
+                        }
+                    }
+                }
+            }
+
+            .info-bonus-text {
+                font-size: 15px;
+                line-height: 1.45;
+                letter-spacing: 0.01em;
+                color: #727a99;
+
+                @media (min-width: 760px) {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+
     /* HERO SECTION */
 
 
@@ -916,3 +1067,4 @@
         background-size: cover;
     }
 }
+
