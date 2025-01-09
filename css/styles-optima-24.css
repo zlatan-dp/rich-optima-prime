@@ -13,6 +13,9 @@
     letter-spacing: 0.01em;
     background-color: #fff;
 
+    max-width: 1750px;
+    margin: 0 auto;
+
     @media (min-width: 760px) {
         font-size: 24px;
     }
@@ -664,6 +667,10 @@
         @media (min-width: 1360px) {
             background-image: url('../img-optima-24/comfort-web.png');
             height: 56vw;
+        }
+
+        @media (min-width: 1750px) {
+            height: 980px;
         }
 
         .comfort-info {
