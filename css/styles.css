@@ -207,19 +207,19 @@
             flex-direction: column;
             align-items: center;
             padding-top: 18%;
-            background-image: url('../img-optima-24/hero-tv-mob.png');
+            background-image: url('../img/hero-tv-mob.png');
             background-repeat: no-repeat;
             background-position: 50% 0%;
             background-size: contain;
             /* max-width: 780px; */
 
             @media (min-width: 560px) {
-                background-image: url('../img-optima-24/hero-tv-tab.png');
+                background-image: url('../img/hero-tv-tab.png');
                 padding-top: 15%;
             }
 
             @media (min-width: 960px) {
-                background-image: url('../img-optima-24/hero-tv-web.png');
+                background-image: url('../img/hero-tv-web.png');
                 padding-top: 10%;
                 background-size: 70%;
 
@@ -561,14 +561,14 @@
     /* SOUND SECTION */
 
     .sound {
-        background-image: url('../img-optima-24/sound-tv-mob.png');
+        background-image: url('../img/sound-tv-mob.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
         background-size: contain;
         padding-top: 45%;
 
         @media (min-width: 560px) {
-            background-image: url('../img-optima-24/sound-tv-tab.png');
+            background-image: url('../img/sound-tv-tab.png');
         }
 
         @media (min-width: 760px) {
@@ -580,7 +580,7 @@
         }
 
         @media (min-width: 1360px) {
-            background-image: url('../img-optima-24/sound-tv-web.png');
+            background-image: url('../img/sound-tv-web.png');
             margin-top: -30px;
             padding-top: 30%;
         }
@@ -651,7 +651,7 @@
     /* COMFORT SECTION */
 
     .comfort {
-        background-image: url('../img-optima-24/comfort-mob.png');
+        background-image: url('../img/comfort-mob.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
         background-size: contain;
@@ -659,13 +659,13 @@
         padding-bottom: 0;
 
         @media (min-width: 560px) {
-            background-image: url('../img-optima-24/comfort-tab.png');
+            background-image: url('../img/comfort-tab.png');
             background-size: cover;
             height: 133vw;
         }
 
         @media (min-width: 1360px) {
-            background-image: url('../img-optima-24/comfort-web.png');
+            background-image: url('../img/comfort-web.png');
             height: 56vw;
         }
 
@@ -810,7 +810,7 @@
     /* GOOGLE SECTION */
 
     .google {
-        background-image: url('../img-optima-24/google-mob.png');
+        background-image: url('../img/google-mob.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
         background-size: contain;
@@ -818,12 +818,12 @@
         padding-top: 100%;
 
         @media (min-width: 560px) {
-            background-image: url('../img-optima-24/google-tab.png');
+            background-image: url('../img/google-tab.png');
             padding-top: 90%;
         }
 
         @media (min-width: 1360px) {
-            background-image: url('../img-optima-24/google-web.png');
+            background-image: url('../img/google-web.png');
             padding-top: 60%;
         }
 
@@ -908,18 +908,18 @@
     /* KIVIPLUS SECTION */
 
     .kiviplus {
-        background-image: url('../img-optima-24/kiviplus-mob.png');
+        background-image: url('../img/kiviplus-mob.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
         background-size: contain;
         margin-top: -20px;
         
         @media (min-width: 560px) {
-            background-image: url('../img-optima-24/kiviplus-tab.png');
+            background-image: url('../img/kiviplus-tab.png');
         }
         
         @media (min-width: 1360px) {
-            background-image: url('../img-optima-24/kiviplus-web.png');
+            background-image: url('../img/kiviplus-web.png');
         }
 
         .kiviplus-title-wrap {
@@ -1048,18 +1048,18 @@
     /* DIGITAL-PRODUCTS SECTION */
 
     .digital-products {
-        background-image: url('../img-optima-24/digital-mob.png');
+        background-image: url('../img/digital-mob.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
         background-size: contain;
         margin-top: -20px;
         
         @media (min-width: 560px) {
-            background-image: url('../img-optima-24/digital-tab.png');
+            background-image: url('../img/digital-tab.png');
         }
         
         @media (min-width: 1360px) {
-            background-image: url('../img-optima-24/digital-web.png');
+            background-image: url('../img/digital-web.png');
         }
 
         .digital-title {
@@ -1453,7 +1453,7 @@
         height: 16px;
         left: 60%;
         top: 48%;
-        background-image: url('../img-optima-24/technologies/left-arrow.svg');
+        background-image: url('../img/technologies/left-arrow.svg');
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
@@ -1465,7 +1465,7 @@
         height: 16px;
         right: 60%;
         top: 48%;
-        background-image: url('../img-optima-24/technologies/right-arrow.svg');
+        background-image: url('../img/technologies/right-arrow.svg');
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
