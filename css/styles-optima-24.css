@@ -1372,6 +1372,12 @@
 
             .other-products-item {
 
+                transition: transform var(--trans-dur) var(--trans-timing-function);
+
+                &:hover, &:focus {
+                    transform: scale(1.03);
+                }
+
                 @media (min-width: 1060px) {
                     flex: 1 1 calc((100% - 24px) / 2);
                 }
