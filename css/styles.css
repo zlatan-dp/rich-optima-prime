@@ -610,7 +610,11 @@
 
             @media (min-width: 1360px) {
                 margin-bottom: 38%;
+                width: 800px;
+            }
 
+            @media (min-width: 1680px) {
+                width: 100%;
             }
         }
 
