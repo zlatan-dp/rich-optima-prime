@@ -1161,8 +1161,12 @@
                 .product-info-wrap {
                     display: flex;
                     gap: 32px;
-                    align-items: center;
+                    align-items: flex-start;
                     width: 100%;
+    
+                    @media (min-width: 560px) {
+                        align-items: center;
+                    }
     
                     @media (min-width: 760px) {
                         gap: 60px;
@@ -1170,6 +1174,7 @@
 
                     @media (min-width: 1360px) {
                         max-width: 596px;
+                        align-items: flex-start;
                     }
 
                     @media (min-width: 1460px) {
@@ -1178,6 +1183,7 @@
 
                     @media (min-width: 1900px) {
                         max-width: 1000px;
+                        align-items: center;
                     }
 
                     .product-icon-wrap {
