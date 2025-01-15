@@ -1339,6 +1339,10 @@
         background-color: var(--black-color);
         padding-bottom: 54px;
 
+        @media (min-width: 760px) {
+            padding-bottom: 114px;
+        }
+
         .other-products-main-title {
             max-width: 380px;
 
@@ -1414,6 +1418,10 @@
                         text-transform: uppercase;
                         color: var(--white-color);
 
+                        &.kidstv {
+                            text-transform: none;
+                        }
+
                         @media (min-width: 760px) {
                             font-size: 42px;
                         }
@@ -1450,6 +1458,206 @@
         }
     }
 
+
+    /* SUPPORT */
+
+    .support {
+        background-color: var(--black-color);
+        padding: 0 0 54px 0;
+
+        @media (min-width: 760px){
+            padding: 0 0 114px 0;
+        }
+
+        .wrap-container::before {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1px;
+                margin-bottom: 50px;
+                background-color: #727a99;
+                
+                @media (min-width: 760px) {
+                    margin-bottom: 106px;
+                }
+            
+        }
+
+        .support-main-title {
+            margin-bottom: 54px;
+
+            @media (min-width: 360px) {
+                text-align: center;
+            }          
+
+            @media (min-width: 760px) {
+                margin-bottom: 114px;
+            }          
+
+            @media (min-width: 1360px) {
+                text-align: left;
+            }          
+        }
+
+        .support-info {
+            display: flex;
+            flex-direction: column;
+            gap: 54px;
+
+            @media (min-width: 960px) {
+                gap: 84px;
+            }
+
+            @media (min-width: 1360px) {
+                flex-direction: row;;
+                gap: 24px;
+                justify-content: space-between;
+            }
+
+            .support-contacts {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                align-items: center;
+
+                .support-logo {
+                    max-width: 287px;
+
+                    @media (min-width: 760px) {
+                        max-width: 372px;
+                    }
+
+                    @media (min-width: 1360px) {
+                        max-width: 287px;
+                    }
+
+                    @media (min-width: 1680px) {
+                        max-width: 345px;
+                    }
+                }
+
+                .support-number {
+                    font-size: 32px;
+                    line-height: 1;
+                    color: var(--white-color);
+
+                    .bold {
+                        font-weight: 700;
+                    }
+
+                    @media (min-width: 360px) {
+                        font-size: 38px;
+                    }
+
+                    @media (min-width: 760px) {
+                        font-size: 51px;
+                    }
+
+                    @media (min-width: 1360px) {
+                        font-size: 38px;
+                    }
+
+                    @media (min-width: 1680px) {
+                        font-size: 47px;
+                    }
+                }
+
+                .support-mail {
+                    font-size: 18px;
+                    line-height: 1;
+                    color: var(--white-color);
+                    
+                    @media (min-width: 360px) {
+                        font-size: 23px;
+                    }
+                    
+                    @media (min-width: 760px) {
+                        font-size: 30px;
+                    }
+                    
+                    @media (min-width: 1360px) {
+                        font-size: 23px;
+                    }
+                    
+                    @media (min-width: 1680px) {
+                        font-size: 28px;
+                    }
+                }
+            }
+
+            .support-messengers-list {
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+                align-items: center;
+
+                @media (min-width: 760px) {
+                    flex-direction: row;
+                    gap: 39px;
+                    justify-content: center;
+                }
+
+                @media (min-width: 760px) {
+                    gap: 24px;
+                }
+
+                @media (min-width: 1680px) {
+                    gap: 32px;
+                }
+
+                .support-messengers-item {
+                    max-width: 244px;
+
+                    @media (min-width: 760px) {
+                        max-width: 196px;
+                    }
+
+                    @media (min-width: 1360px) {
+                        max-width: 144px;
+                    }
+
+                    @media (min-width: 1680px) {
+                        max-width: 164px;
+                    }
+                }
+            }
+
+            .support-warranty {
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                justify-content: center;
+
+                .warranty-number {
+                    width: 84px;
+
+                    @media (min-width: 760px) {
+                        width: 108px;
+                    }
+
+                    @media (min-width: 1680px) {
+                        width: 117px;
+                    }
+                }
+
+                .warranty-text {
+                    font-weight: 300;
+                    font-size: 26px;
+                    line-height: 1.2;
+                    text-transform: uppercase;
+                    color: var(--white-color);
+
+                    @media (min-width: 760px) {
+                        font-size: 34px;
+                    }
+
+                    @media (min-width: 1680px) {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
 
     /* TWENTY */
 
