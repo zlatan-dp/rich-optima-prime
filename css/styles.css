@@ -11,6 +11,7 @@
     line-height: 1.4;
     color: var(--black-color);
     letter-spacing: 0.01em;
+    text-align: left;
     background-color: #fff;
 
     max-width: 1750px;
@@ -32,6 +33,7 @@
     h5,
     h6 {
         margin: 0;
+        color: var(--black-color);
     }
 
     ul,
@@ -1667,6 +1669,8 @@
     }
 
     .twentytwenty-left-arrow {
+        display: block;
+        transform: translate(0, 0);
         border: none;
         width: 8px;
         height: 16px;
@@ -1679,6 +1683,8 @@
     }
 
     .twentytwenty-right-arrow {
+        display: block;
+        transform: translate(0, 0);
         border: none;
         width: 8px;
         height: 16px;
